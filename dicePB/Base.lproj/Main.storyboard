@@ -47,9 +47,10 @@
                                 <color key="tintColor" systemColor="systemTealColor"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWd-CG-VRd">
-                                <rect key="frame" x="162" y="490" width="46" height="30"/>
+                                <rect key="frame" x="151" y="479" width="69" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <state key="normal" title="開骰"/>
                                 <connections>
                                     <action selector="dicsBtnChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RLm-ga-pxj"/>
                                 </connections>

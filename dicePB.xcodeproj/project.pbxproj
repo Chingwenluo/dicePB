@@ -13,6 +13,7 @@
 		0700520B251A557100BD849D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07005209251A557100BD849D /* Main.storyboard */; };
 		0700520D251A557200BD849D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0700520C251A557200BD849D /* Assets.xcassets */; };
 		07005210251A557200BD849D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0700520E251A557200BD849D /* LaunchScreen.storyboard */; };
+		07E936AD253DFB06007B51B5 /* shake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07E936AC253DFB06007B51B5 /* shake.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0700520C251A557200BD849D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0700520F251A557200BD849D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07005211251A557200BD849D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E936AC253DFB06007B51B5 /* shake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shake.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				07005203251A557100BD849D /* AppDelegate.swift */,
 				07005205251A557100BD849D /* SceneDelegate.swift */,
+				07E936AC253DFB06007B51B5 /* shake.mp3 */,
 				07005207251A557100BD849D /* ViewController.swift */,
 				07005209251A557100BD849D /* Main.storyboard */,
 				0700520C251A557200BD849D /* Assets.xcassets */,
@@ -127,6 +130,7 @@
 				07005210251A557200BD849D /* LaunchScreen.storyboard in Resources */,
 				0700520D251A557200BD849D /* Assets.xcassets in Resources */,
 				0700520B251A557100BD849D /* Main.storyboard in Resources */,
+				07E936AD253DFB06007B51B5 /* shake.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var sumLabel: UILabel!
     @IBOutlet weak var leftsumLabel: UILabel!
     @IBOutlet weak var rightsumLabel: UILabel!
-    
+    var player: AVPlayer?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-       if motion == .motionShake {
+        if motion == .motionShake {
         var sum = 0
         var leftsum = 0
         var rightsum = 0
@@ -37,6 +37,9 @@ class ViewController: UIViewController {
                 rightsum = rightsum + number
             }
             
+            let shakeSound = Bundle.main.url(forResource: "shake", withExtension: "mp3")!
+            player = AVPlayer(url: shakeSound)
+            player?.play()
             
         }
         sumLabel.text = "總計:\(sum)"
@@ -50,6 +53,7 @@ class ViewController: UIViewController {
         var sum = 0
         var leftsum = 0
         var rightsum = 0
+      
         for i in 0...dicsImage.count-1 {
             let number = Int.random(in: 1...6)
             dicsImage[i].image = UIImage(systemName: "die.face.\(number).fill")
@@ -59,7 +63,11 @@ class ViewController: UIViewController {
             } else {
                 rightsum = rightsum + number
             }
-            
+    
+           
+            let shakeSound = Bundle.main.url(forResource: "shake", withExtension: "mp3")!
+            player = AVPlayer(url: shakeSound)
+            player?.play()
             
         }
         sumLabel.text = "總計:\(sum)"
